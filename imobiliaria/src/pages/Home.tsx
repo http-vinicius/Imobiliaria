@@ -2,6 +2,12 @@ import { Button } from '../components/Button'
 import { Nav } from '../components/Nav'
 import sobreImg from '../assets/imagens/sobre.jpg'
 import imovelImg from '../assets/imagens/imoveis.jpg'
+import newImg1 from '../assets/imagens/novidade1.jpg'
+import newImg2 from '../assets/imagens/novidade2.jpg'
+import newImg3 from '../assets/imagens/novidade3.jpg'
+import newImg4 from '../assets/imagens/novidade4.jpg'
+import newImg5 from '../assets/imagens/novidade5.jpg'
+import newImg6 from '../assets/imagens/novidade6.jpg'
 import '../styles/home.scss'
 
 export function Home() {
@@ -13,7 +19,7 @@ export function Home() {
       <Nav />
       <header className="banner">
         <div className="container-title">
-          <h1>LOREN IPSUM</h1>
+          <h1 className="logo">LOREN IPSUM</h1>
           <div className="espacamento">
             <h4><i>“Vestibulum non ligula sodales,<br /> fringilla.”</i></h4>
           </div>
@@ -61,7 +67,78 @@ export function Home() {
 
       <section className="section-3">
         <div className="container-titulo">
-          <h2>NOVIDADES</h2>
+          <h2 className="news-titulo">NOVIDADES</h2>
+        </div>
+        <div className="news-card-container">
+          <div className="card-container">
+            <img src={newImg1} alt="" />
+            <h3><strong>LOREN IPSUN DOLOR SIT AMET</strong></h3>
+            <div className="separator-2"></div>
+            <h5>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean augue tortor, vehicula non eros scelerisque.</h5>
+            <div className="position-button">
+              <Button className="button-news">SAIBA MAIS</Button>
+            </div>
+          </div>
+
+          <div className="separator-img"></div>
+
+          <div className="card-container">
+            <img src={newImg2} alt="" />
+            <h3>LOREN IPSUN DOLOR SIT AMET</h3>
+            <div className="separator-2"></div>
+            <h5>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean augue tortor, vehicula non eros scelerisque.</h5>
+            <div className="position-button">
+              <Button className="button-news">SAIBA MAIS</Button>
+            </div>
+          </div>
+
+          <div className="separator-img"></div>
+
+          <div className="card-container">
+            <img src={newImg3} alt="" />
+            <h3>LOREN IPSUN DOLOR SIT AMET</h3>
+            <div className="separator-2"></div>
+            <h5>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean augue tortor, vehicula non eros scelerisque.</h5>
+            <div className="position-button">
+              <Button className="button-news">SAIBA MAIS</Button>
+            </div>
+          </div>
+
+          <div className="separator-3"></div>
+
+          <div className="card-container">
+            <img src={newImg4} alt="" />
+            <h3>LOREN IPSUN DOLOR SIT AMET</h3>
+            <div className="separator-2"></div>
+            <h5>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean augue tortor, vehicula non eros scelerisque.</h5>
+            <div className="position-button">
+              <Button className="button-news">SAIBA MAIS</Button>
+            </div>
+          </div>
+
+          <div className="separator-img"></div>
+
+          <div className="card-container">
+            <img src={newImg5} alt="" />
+            <h3>LOREN IPSUN DOLOR SIT AMET</h3>
+            <div className="separator-2"></div>
+            <h5>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean augue tortor, vehicula non eros scelerisque.</h5>
+            <div className="position-button">
+              <Button className="button-news">SAIBA MAIS</Button>
+            </div>
+          </div>
+
+          <div className="separator-img"></div>
+
+          <div className="card-container">
+            <img src={newImg6} alt="" />
+            <h3>LOREN IPSUN DOLOR SIT AMET</h3>
+            <div className="separator-2"></div>
+            <h5>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean augue tortor, vehicula non eros scelerisque.</h5>
+            <div className="position-button">
+              <Button className="button-news">SAIBA MAIS</Button>
+            </div>
+          </div>
         </div>
       </section>
     </>
