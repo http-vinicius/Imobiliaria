@@ -1,5 +1,6 @@
 import { Button } from '../components/Button'
 import { Nav } from '../components/Nav'
+import { Footer } from '../components/Footer'
 import sobreImg from '../assets/imagens/sobre.jpg'
 import imovelImg from '../assets/imagens/imoveis.jpg'
 import newImg1 from '../assets/imagens/novidade1.jpg'
@@ -8,13 +9,14 @@ import newImg3 from '../assets/imagens/novidade3.jpg'
 import newImg4 from '../assets/imagens/novidade4.jpg'
 import newImg5 from '../assets/imagens/novidade5.jpg'
 import newImg6 from '../assets/imagens/novidade6.jpg'
+import pes1Img from '../assets/imagens/pessoa1.jpg'
+import pes2Img from '../assets/imagens/pessoa2.jpg'
+import pes3Img from '../assets/imagens/pessoa3.jpg'
 import '../styles/home.scss'
 
 export function Home() {
   return (
-
     /*Header*/
-
     <>
       <Nav />
       <header className="banner">
@@ -141,6 +143,43 @@ export function Home() {
           </div>
         </div>
       </section>
+
+      {/**--------------------------------------------------------------sessão 4----------------------------------------------------- */}
+
+      <section className="container-section-4">
+        <div className="section-4">
+          <div className="container-titulo">
+            <h2 className="news-titulo">NOSSA EQUIPE</h2>
+          </div>
+          <div className="news-card-container">
+            <div className="card-container">
+              <img src={pes1Img} alt="" />
+              <h3>DOLOR SIT AMET</h3>
+              <div className="separator-2"></div>
+              <h5>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean augue tortor, vehicula non eros scelerisque, commodo tristique turpis.</h5>
+            </div>
+
+            <div className="separator-img"></div>
+
+            <div className="card-container">
+              <img src={pes2Img} alt="" />
+              <h3>DOLOR SIT AMET</h3>
+              <div className="separator-2"></div>
+              <h5>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean augue tortor, vehicula non eros scelerisque, commodo tristique turpis.</h5>
+            </div>
+
+            <div className="separator-img"></div>
+
+            <div className="card-container">
+              <img src={pes3Img} alt="" />
+              <h3>DOLOR SIT AMET</h3>
+              <div className="separator-2"></div>
+              <h5>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean augue tortor, vehicula non eros scelerisque, commodo tristique turpis.</h5>
+            </div>
+          </div>
+        </div>
+      </section>
+      <Footer />
     </>
   )
 }
