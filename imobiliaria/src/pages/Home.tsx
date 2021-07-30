@@ -157,6 +157,9 @@ export function Home() {
               <h3>DOLOR SIT AMET</h3>
               <div className="separator-2"></div>
               <h5>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean augue tortor, vehicula non eros scelerisque, commodo tristique turpis.</h5>
+              <div className="position-button">
+                <Button className="button-news">SAIBA MAIS</Button>
+              </div>
             </div>
 
             <div className="separator-img"></div>
@@ -166,6 +169,9 @@ export function Home() {
               <h3>DOLOR SIT AMET</h3>
               <div className="separator-2"></div>
               <h5>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean augue tortor, vehicula non eros scelerisque, commodo tristique turpis.</h5>
+              <div className="position-button">
+                <Button className="button-news">SAIBA MAIS</Button>
+              </div>
             </div>
 
             <div className="separator-img"></div>
@@ -175,6 +181,9 @@ export function Home() {
               <h3>DOLOR SIT AMET</h3>
               <div className="separator-2"></div>
               <h5>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean augue tortor, vehicula non eros scelerisque, commodo tristique turpis.</h5>
+              <div className="position-button">
+                <Button className="button-news">SAIBA MAIS</Button>
+              </div>
             </div>
           </div>
         </div>
